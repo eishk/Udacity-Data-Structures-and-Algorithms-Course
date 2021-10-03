@@ -1,0 +1,17 @@
+0. The complexity for the zero task is worst case O(1), as the accessor methods
+for getting a value take O(1) time..
+1. For the first task, the complexity is O(n) as the list transversal occurs once
+and there are no nested for loops, thus the complexity is not doubled or tripled.
+The function for finding the length is O(1), so worst case complexity is O(n).
+2. For the second task, the complexity is also boiling down to O(n) as the call list
+is transversed once and there are three parts of each call being studied- 3n. To get
+the max value of the set, the max complexity is O(n). This comes to O(3n + n), which
+boils down to O(n).
+3. Again Task 3 is O(nlog(n)) complexity, as the n is transversed one in the form of the
+calls transversal. Then the list is sorted by Sample sort, which has a time complexity
+at worst of nlog(n). Then the list is transversed, which is at most n, which leads to
+O(n+nlog(n)+n), which boilds down to O(nlogn).
+4. Task 4 is O(nlogn) once again, and that is due to the initial transversals of texts
+and calls makes it O(n + n), with another transversal occurring of calls_caller which
+is atmost n, making it O(3n), a sample sort of nlogn and then another list transversal,
+which boil down to O(nlogn). Sample sort has complexity of nlogn. 
